@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Interactivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2f6ad6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .cv-container {
+            background: rgb(84, 201, 133);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+        }
+        .header {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .editable {
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            color: #333;
+        }
+       
+    </style>
+</head>
+<body>
+    <img src="img/jenfrey.jpg" alt="persona">
+    <div class="cv-container">
+        <h1 class="header">Currículum Vitae</h1>
+        <div class="section">
+            <label>Nombre:Jenfrey Vinicio Zetino
+            </label>
+        </div>
+        <div class="section">
+            <label>Email:jenfreyzetino@gmail.com</label>
+        </div>
+        <div class="section">
+            <label>Teléfono:58595805</label>
+        </div>
+        <div class="section">
+            <label>Experiencia:colocador de Maravilla, En area de ventas en PROVIASA,</label>
+            <p contenteditable="true" class="editable">colocador de Maravilla contratadao por efonque promosional <br>durante la temporada de diciembre. <br> Trabajador de Provialsa en area de ventas en <br> el transcurso del año 2023 durate trabjo de medio tiempo   </p>
+        </div>
+        <div class="section">
+            <label>Educación:diversificado </label>
+            <p contenteditable="true" class="editable">Educacion Primaria en E.O.M.R. colinas de villaNueva<br>EDucacion Basica en INEB 9 de julio <br>Diversificado en I.P.C</p>
+        </div>
+    </div>
+</body>
+</html>
